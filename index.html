@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>动画的练习</title>
+</head>
+<link rel="stylesheet" href="animate.css">
+<script src="jquery1.12.3.js"></script>
+<script>
+    $(document).on('click',function(){
+      	$(".startTitle").toggleClass("animation");
+    })
+</script>
+<body>
+	<div class="cebian">
+		<div class="button">
+			<label for="check">按钮</label>
+		</div>
+		<input type="checkbox" id="check">
+		<ul>
+			<li>list 1</li>
+			<li>list 2</li>
+			<li>list 3</li>
+		</ul>
+	</div>
+
+	<div class="startTitle">
+		<div class="left"></div>
+		<h1>贪吃蛇</h1>
+		<div class="right"></div>
+	</div>
+</body>
+</html>
